@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Rust
+/target/
+**/*.rs.bk
+
+# Tauri
+src-tauri/target/
+src-tauri/dist/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# System Files
+.DS_Store
+Thumbs.db
